@@ -263,10 +263,104 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="https://testingcf.jsdelivr.net/gh/johnzhu-123/johnzhu-123.github.io/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 150px);
+        overflow: scroll;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -314,14 +408,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.3k
+                    3.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    12 分
+                    11 分
                 </div>
                 
 
@@ -341,35 +435,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <div id="readmore-container"><!-- toc -->
-<ul>
-<li><a href="#01-%E6%A3%80%E7%B4%A2%E5%B7%A5%E5%85%B7">01 检索工具</a>
-<ul>
-<li><a href="#11-%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E">1.1-搜索引擎</a></li>
-<li><a href="#12-%E5%9E%82%E7%9B%B4%E7%BD%91%E7%AB%99">1.2-垂直网站</a></li>
-<li><a href="#13-%E4%BA%91%E7%9B%98%E6%90%9C%E7%B4%A2">1.3-云盘搜索</a></li>
-<li><a href="#14-%E6%B1%82%E6%95%99%E7%AB%99%E7%82%B9">1.4-求教站点</a></li>
-<li><a href="#15-%E4%BC%98%E5%85%88%E6%AC%A1%E5%BA%8F">1.5-优先次序</a></li>
-</ul>
-</li>
-<li><a href="#02-%E6%A3%80%E7%B4%A2%E9%80%BB%E8%BE%91">02 检索逻辑</a>
-<ul>
-<li><a href="#21-%E6%98%8E%E7%A1%AE%E8%87%AA%E8%BA%AB%E9%9C%80%E6%B1%82">2.1-明确自身需求</a></li>
-<li><a href="#22-%E5%96%84%E7%94%A8%E6%A3%80%E7%B4%A2%E5%BC%8F">2.2-善用检索式</a></li>
-<li><a href="#23-%E8%BF%9B%E8%A1%8C%E7%BB%93%E6%9E%9C%E7%AD%9B%E9%80%89">2.3-进行结果筛选</a></li>
-</ul>
-</li>
-<li><a href="#03-ai%E6%A3%80%E7%B4%A2%E5%89%8D%E6%B2%BF">03 AI检索前沿</a>
-<ul>
-<li><a href="#31-%E8%AF%AD%E8%A8%80%E5%A4%A7%E6%A8%A1%E5%9E%8B">3.1-语言大模型</a></li>
-<li><a href="#32-prompt%E5%B7%A5%E7%A8%8B">3.2-Prompt工程</a></li>
-<li><a href="#33-ai%E8%81%9A%E5%90%88%E7%AB%99">3.3-AI聚合站</a></li>
-</ul>
-</li>
-<li><a href="#04-%E6%9C%AC%E6%9C%9F%E5%B0%8F%E7%BB%93">04 本期小结</a></li>
-</ul>
-<!-- tocstop -->
-<p>置身现代社会的信息洪流，相信每个人或多或少都存在信息过载的状况。如何从纷繁复杂的互联网中检索出有价值的信息，成为每位上网冲浪选手必须面对和解决的首要问题。今天，我们就针对这一主题，从<strong>检索工具</strong>、<strong>检索逻辑</strong>和<strong>AI检索前沿</strong>等方面，同读者朋友们进行一次简要探讨。</p>
+                <div id="readmore-container"><p>置身现代社会的信息洪流，相信每个人或多或少都存在信息过载的状况。如何从纷繁复杂的互联网中检索出有价值的信息，成为每位上网冲浪选手必须面对和解决的首要问题。今天，我们就针对这一主题，从<strong>检索工具</strong>、<strong>检索逻辑</strong>和<strong>AI检索前沿</strong>等方面，同读者朋友们进行一次简要探讨。</p>
 <h1><span id="01-检索工具">01 检索工具</span></h1>
 <p>所谓“工欲善其事，必先利其器”，要想显著提升检索效率，首先就要学会利用工具杠杆，成倍放大自己的能力。而这些工具就是我们即将介绍的搜索引擎、垂直网站、云盘搜索及求助站点。</p>
 <h2><span id="11-搜索引擎">1.1-搜索引擎</span></h2>
@@ -1483,6 +1549,100 @@
 
 <script type="text/javascript" src="https://testingcf.jsdelivr.net/gh/johnzhu-123/johnzhu-123.github.io/libs/codeBlock/codeShrink.js"></script>
 
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="https://testingcf.jsdelivr.net/gh/johnzhu-123/johnzhu-123.github.io/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('3'),
+            headingSelector: 'h1, h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 
