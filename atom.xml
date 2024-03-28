@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云端知识库</title>
+  
+  <subtitle>向云端</subtitle>
+  <link href="http://seeyjys.live/atom.xml" rel="self"/>
+  
+  <link href="http://seeyjys.live/"/>
+  <updated>2024-03-07T10:33:54.666Z</updated>
+  <id>http://seeyjys.live/</id>
+  
+  <author>
+    <name>卧看漫天云卷云舒</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>云端储物间</title>
+    <link href="http://seeyjys.live/2024/03/28/%E4%BA%91%E7%AB%AF%E5%82%A8%E7%89%A9%E9%97%B4/"/>
+    <id>http://seeyjys.live/2024/03/28/%E4%BA%91%E7%AB%AF%E5%82%A8%E7%89%A9%E9%97%B4/</id>
+    <published>2024-03-28T09:10:36.043Z</published>
+    <updated>2024-03-07T10:33:54.666Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;A：知识分享&quot;&gt;&lt;a href=&quot;#A：知识分享&quot; class=&quot;headerlink&quot; title=&quot;A：知识分享&quot;&gt;&lt;/a&gt;A：知识分享&lt;/h2&gt;&lt;h3 id=&quot;01-上网工具&quot;&gt;&lt;a href=&quot;#01-上网工具&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="资源共享站" scheme="http://seeyjys.live/categories/%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB%E7%AB%99/"/>
+    
+    
+    <category term="资源站点" scheme="http://seeyjys.live/tags/%E8%B5%84%E6%BA%90%E7%AB%99%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI时代，你的搜索力还充盈吗？</title>
+    <link href="http://seeyjys.live/2024/03/28/AI%E6%97%B6%E4%BB%A3%EF%BC%8C%E4%BD%A0%E7%9A%84%E6%90%9C%E7%B4%A2%E5%8A%9B%E8%BF%98%E5%85%85%E7%9B%88%E5%90%97%EF%BC%9F/"/>
+    <id>http://seeyjys.live/2024/03/28/AI%E6%97%B6%E4%BB%A3%EF%BC%8C%E4%BD%A0%E7%9A%84%E6%90%9C%E7%B4%A2%E5%8A%9B%E8%BF%98%E5%85%85%E7%9B%88%E5%90%97%EF%BC%9F/</id>
+    <published>2024-03-28T09:08:35.740Z</published>
+    <updated>2024-02-28T08:02:11.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;置身现代社会的信息洪流，相信每个人或多或少都存在信息过载的状况。如何从纷繁复杂的互联网中检索出有价值的信息，成为每位上网冲浪选手必须面对和解决的首要问题。今天，我们就针对这一主题，从&lt;strong&gt;检索工具&lt;/strong&gt;、&lt;strong&gt;检索逻辑&lt;/strong&gt;和&lt;s</summary>
+        
+      
+    
+    
+    
+    <category term="知识分享" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="信息检索" scheme="http://seeyjys.live/tags/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/"/>
+    
+  </entry>
+  
+</feed>
