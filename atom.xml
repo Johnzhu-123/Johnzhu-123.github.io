@@ -6,7 +6,7 @@
   <link href="http://seeyjys.live/atom.xml" rel="self"/>
   
   <link href="http://seeyjys.live/"/>
-  <updated>2024-03-29T06:30:05.410Z</updated>
+  <updated>2024-03-31T04:05:36.139Z</updated>
   <id>http://seeyjys.live/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>testing</title>
+    <link href="http://seeyjys.live/2024/03/31/testing/"/>
+    <id>http://seeyjys.live/2024/03/31/testing/</id>
+    <published>2024-03-31T04:01:19.000Z</published>
+    <updated>2024-03-31T04:05:36.139Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;图片对齐&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/bgsub.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>云起行舟</title>
     <link href="http://seeyjys.live/2024/03/29/yun-qi-xing-zhou/"/>
     <id>http://seeyjys.live/2024/03/29/yun-qi-xing-zhou/</id>
     <published>2024-03-29T04:28:05.505Z</published>
-    <updated>2024-03-29T06:30:05.410Z</updated>
+    <updated>2024-03-31T03:47:17.112Z</updated>
     
     
       
