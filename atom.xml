@@ -6,7 +6,7 @@
   <link href="http://seeyjys.live/atom.xml" rel="self"/>
   
   <link href="http://seeyjys.live/"/>
-  <updated>2024-04-17T10:04:58.508Z</updated>
+  <updated>2024-04-17T12:47:02.664Z</updated>
   <id>http://seeyjys.live/</id>
   
   <author>
@@ -17,18 +17,77 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>电子书下载</title>
+    <link href="http://seeyjys.live/2024/04/17/dian-zi-shu-xia-zai-zhi-nan/"/>
+    <id>http://seeyjys.live/2024/04/17/dian-zi-shu-xia-zai-zhi-nan/</id>
+    <published>2024-04-17T12:47:22.899Z</published>
+    <updated>2024-04-17T12:47:02.664Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原创作者：卧看漫天云卷云舒  公号：卧看漫天云卷云舒  发布时间：2023-07-14 15:22 发表于江西&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="知识分享" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="电子书" scheme="http://seeyjys.live/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+    <category term="图书互助" scheme="http://seeyjys.live/tags/%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安卓端插件及脚本使用指南</title>
+    <link href="http://seeyjys.live/2024/04/17/an-zhuo-duan-cha-jian-ji-jiao-ben-shi-yong-zhi-nan/"/>
+    <id>http://seeyjys.live/2024/04/17/an-zhuo-duan-cha-jian-ji-jiao-ben-shi-yong-zhi-nan/</id>
+    <published>2024-04-17T12:30:11.642Z</published>
+    <updated>2024-04-17T12:30:02.588Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原创 作者:卧看漫天云卷云舒 公号:卧看漫天云卷云舒 发布时间:2023-05-12 21:11 发表于江西&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="知识分享" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="安卓" scheme="http://seeyjys.live/tags/%E5%AE%89%E5%8D%93/"/>
+    
+    <category term="浏览器插件" scheme="http://seeyjys.live/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="油猴脚本" scheme="http://seeyjys.live/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>浏览器插件使用指南</title>
     <link href="http://seeyjys.live/2024/04/17/liu-lan-qi-cha-jian-shi-yong-zhi-nan/"/>
     <id>http://seeyjys.live/2024/04/17/liu-lan-qi-cha-jian-shi-yong-zhi-nan/</id>
-    <published>2024-04-17T09:19:41.472Z</published>
-    <updated>2024-04-17T10:04:58.508Z</updated>
+    <published>2024-04-17T12:11:17.408Z</published>
+    <updated>2024-04-17T12:10:44.538Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;浏览器扩展插件旨在对浏览器基本功能进行扩展，以满足用户多样性的使用需求，从而为浏览器插上遨游网络的神奇羽翼。今天我们就以在Chrome及Edge浏览器中添加 Adblock</summary>
+    <summary type="html">&lt;p&gt;原创作者：卧看漫天云卷云舒  公号：卧看漫天云卷云舒  发布时间：2023-04-15 17:59 发表于江西&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a</summary>
         
       
     
@@ -39,23 +98,26 @@
     
     <category term="浏览器插件" scheme="http://seeyjys.live/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"/>
     
+    <category term="Chrome" scheme="http://seeyjys.live/tags/Chrome/"/>
+    
+    <category term="Edge" scheme="http://seeyjys.live/tags/Edge/"/>
+    
   </entry>
   
   <entry>
-    <title>云起行舟</title>
-    <link href="http://seeyjys.live/2024/03/29/yun-qi-xing-zhou/"/>
-    <id>http://seeyjys.live/2024/03/29/yun-qi-xing-zhou/</id>
-    <published>2024-03-29T04:28:05.505Z</published>
-    <updated>2024-03-31T03:47:17.112Z</updated>
+    <title>油猴脚本使用指南</title>
+    <link href="http://seeyjys.live/2024/04/17/you-hou-jiao-ben-shi-yong-zhi-nan/"/>
+    <id>http://seeyjys.live/2024/04/17/you-hou-jiao-ben-shi-yong-zhi-nan/</id>
+    <published>2024-04-17T11:43:56.571Z</published>
+    <updated>2024-04-17T11:51:40.949Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 align=&quot;center&quot;&gt;云起行舟&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/image-20240329125632586.png&quot;</summary>
+    <summary type="html">&lt;p&gt;原创作者：卧看漫天云卷云舒  公号：卧看漫天云卷云舒  发布时间：2023-04-22 15:53 发表于江西&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a</summary>
         
       
     
@@ -64,7 +126,9 @@
     <category term="知识分享" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="AI 创作" scheme="http://seeyjys.live/tags/AI-%E5%88%9B%E4%BD%9C/"/>
+    <category term="油猴脚本" scheme="http://seeyjys.live/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="tampermonkey" scheme="http://seeyjys.live/tags/tampermonkey/"/>
     
   </entry>
   

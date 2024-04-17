@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="zh-CN"><head>
     <meta charset="utf-8">
-    <meta name="keywords" content="浏览器插件使用指南, 云端知识库">
+    <meta name="keywords" content="油猴脚本使用指南, 云端知识库">
     <meta name="description" content="愿作天边那一抹蔚蓝，虽似无言，却是有心，纵然平淡，亦即真实...">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -12,7 +12,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>浏览器插件使用指南 | 云端知识库</title>
+    <title>油猴脚本使用指南 | 云端知识库</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -244,12 +244,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">浏览器插件使用指南</h1>
+                    <h1 class="description center-align post-title">油猴脚本使用指南</h1>
                 </div>
             </div>
         </div>
@@ -368,16 +368,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/">
-                                <span class="chip bg-color">浏览器插件</span>
+                            <a href="/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/">
+                                <span class="chip bg-color">油猴脚本</span>
                             </a>
                         
-                            <a href="/tags/Chrome/">
-                                <span class="chip bg-color">Chrome</span>
-                            </a>
-                        
-                            <a href="/tags/Edge/">
-                                <span class="chip bg-color">Edge</span>
+                            <a href="/tags/tampermonkey/">
+                                <span class="chip bg-color">tampermonkey</span>
                             </a>
                         
                     </div>
@@ -415,14 +411,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    745
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    4 分
                 </div>
                 
 
@@ -442,69 +438,49 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>原创作者：卧看漫天云卷云舒  公号：卧看漫天云卷云舒  发布时间：2023-04-15 17:59 发表于江西</p>
-<p>原文地址：<a target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=Mzg2ODg0NDE1OQ==&amp;mid=2247484021&amp;idx=1&amp;sn=7cecf3992f5bce47765ae91092ff8556&amp;chksm=cfa24ce20e5ddb622178c211c4a2abde4d672bfdf744212e6a59820830e3b21784c768e03eae&amp;scene=27#wechat_redirect">【知识分享】原来浏览器还能这样用！</a></p>
-<p>浏览器扩展插件旨在对浏览器基本功能进行扩展，以满足用户多样性的使用需求，从而为浏览器插上遨游网络的神奇羽翼。今天我们就以在Chrome及Edge浏览器中添加Adblock广告拦截器为例，向大家详细演示如何<strong>获取</strong>、<strong>添加</strong>并<strong>使用</strong>浏览器插件。&nbsp;</p>
-<h1 id="1-Chrome-浏览器插件"><a href="#1-Chrome-浏览器插件" class="headerlink" title="1 Chrome 浏览器插件"></a>1 Chrome 浏览器插件</h1><h2 id="1-1-具备”魔法上网”环境"><a href="#1-1-具备”魔法上网”环境" class="headerlink" title="1.1 具备”魔法上网”环境"></a>1.1 具备”魔法上网”环境</h2><p>&nbsp;<strong>策略：直接登录Chrome应用商店，搜索、添加并使用</strong></p>
-<p>Chrome应用商店：<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">https://chrome.google.com/webstore/category/extensions?hl=zh-CN</a></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-0.jpeg"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-1.png"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-2.png"></p>
-<h2 id="1-2-只具备国内上网环境"><a href="#1-2-只具备国内上网环境" class="headerlink" title="1.2 只具备国内上网环境"></a>1.2 只具备国内上网环境</h2><p><strong>策略：从国内插件站中下载插件包，解压后手动添加</strong></p>
-<h3 id="1-2-1-获取插件"><a href="#1-2-1-获取插件" class="headerlink" title="1.2.1 获取插件"></a><strong>1.2.1</strong> 获取插件</h3><p>插件站1 - Crxsoso：<a target="_blank" rel="noopener" href="https://www.crxsoso.com/">https://www.crxsoso.com/</a></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/image-20240417200451894.png"></p>
-<p>插件站2 - Extfans：<a target="_blank" rel="noopener" href="https://www.extfans.com/">https://www.extfans.com/</a>  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-3.png"></p>
-<p>插件站3 - 极简插件：<a target="_blank" rel="noopener" href="https://chrome.zzzmh.cn/#/extension">https://chrome.zzzmh.cn/#/extension</a></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-4.png"></p>
-<p>插件站4 - 扩展坞：<a target="_blank" rel="noopener" href="https://extensiondock.com/cn">https://extensiondock.com/cn</a></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-5.png"></p>
-<h3 id="1-2-2-添加插件"><a href="#1-2-2-添加插件" class="headerlink" title="1.2.2  添加插件"></a><strong>1.2.2</strong>  <strong>添加插件</strong></h3><p>下载好插件后，进入Chrome浏览器，按下图步骤操作</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-6.png"></p>
-<p>开启开发者模式  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-7.png"></p>
-<p>将插件解压包中后缀名为.crx的文件，拖入浏览器扩展程序页面</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-8.png"></p>
-<p>在弹出窗口中点击添加扩展程序  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-9.jpeg"></p>
-<p>为方便后续使用，建议按下图步骤固定显示插件</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-10.jpeg"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-11.png"></p>
-<h3 id="1-2-3-使用插件"><a href="#1-2-3-使用插件" class="headerlink" title="**1.2.3 **使用插件"></a>**1.2.3 **使用插件</h3><p>安装好插件后，一般只需按自身习惯进入相应网页，插件即可自行生效，当然了，不同的插件也有不同的具体使用方法，就留给读者朋友们自行探索了。这里就以百度搜索“数字经济”相关信息为例，对比Adblock插件使用前后的情况，权当抛砖引玉了。  </p>
-<p>  插件使用前：  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-12.png"></p>
-<p>插件使用后：  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-13.png"></p>
-<h1 id="2-Edge-浏览器插件"><a href="#2-Edge-浏览器插件" class="headerlink" title="2 Edge 浏览器插件"></a>2 Edge 浏览器插件</h1><p>微软的Edge浏览器同Chrome浏览器一样，采用了chromium浏览器内核，因此二者在界面、操作和功能上均有相似之处，其不同之处在于：Edge浏览器无需”魔法上网”，即可在国内顺畅使用，这自然也包括其扩展应用商店。由于操作步骤与前文描述相似，下面就简要概述其关键步骤。</p>
-<h2 id="2-1-获取插件"><a href="#2-1-获取插件" class="headerlink" title="2.1 获取插件"></a>2.1 <strong>获取插件</strong></h2><p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-14.png"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-15.png"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-16.png"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-17.png"></p>
-<h2 id="2-2-添加插件"><a href="#2-2-添加插件" class="headerlink" title="2.2  添加插件"></a><strong>2.2</strong>  <strong>添加插件</strong></h2><p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-18.png"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-19.png"></p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-20.png"></p>
-<h2 id="2-3-使用插件"><a href="#2-3-使用插件" class="headerlink" title="2.3  使用插件"></a><strong>2.3</strong>  <strong>使用插件</strong></h2><p>使用插件前：</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-21.png"></p>
-<p>使用插件后：</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-22.png"></p>
-<h1 id="3-插件推荐及资源获取"><a href="#3-插件推荐及资源获取" class="headerlink" title="3 插件推荐及资源获取"></a>3 插件推荐及资源获取</h1><h2 id="3-1-插件推荐"><a href="#3-1-插件推荐" class="headerlink" title="**3.1 **插件推荐"></a>**3.1 **插件推荐</h2><p>01 tampermonkey  </p>
-<p>&nbsp;<img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-23.png"></p>
-<p>02 infinity新标签页（Pro）  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-24.png"></p>
-<p>03&nbsp;SuperCopy 超级复制</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-25.png"></p>
-<p>04&nbsp;FireShot 网页截图  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-26.png"></p>
-<p>05&nbsp;网页更新提醒</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-27.png"></p>
-<p>06&nbsp;easyScholar</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-28.png"></p>
-<p>07&nbsp;GitHub加速</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-29.png"></p>
-<p>08&nbsp;Better History</p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-30.png"></p>
-<h2 id="3-2-资源获取"><a href="#3-2-资源获取" class="headerlink" title="3.2  资源获取"></a><strong>3.2</strong>  资源获取</h2><p>扫码关注下方公众号，后台回复“chrome” 、“edge” 、“&nbsp;google插件 ” 即可获取下载链接，保证官方正品哦（温馨提示：国内中文官网下载的Chrome浏览器系“阉割版”，无扩展功能）  </p>
-<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/chajian-31.jpeg" title="1655086555409360.jpg"></p>
+                <p>原创作者：卧看漫天云卷云舒  公号：卧看漫天云卷云舒  发布时间：2023-04-22 15:53 发表于江西</p>
+<p>原文地址：<a target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=Mzg2ODg0NDE1OQ==&amp;mid=2247484260&amp;idx=1&amp;sn=c6cfaa826361a7514b046b38070a0214&amp;chksm=cfc847cb2501ab25f1fe1653ef1b5c70cd2dc33ef37e33bce4edc2b68d1b476a2e6f309752df&amp;scene=27#wechat_redirect">【知识分享】广告和会员？不存在的！</a></p>
+<p>如果说只能留一个浏览器插件的话，我会毫不犹豫地选择Tampermonkey，也就是油猴脚本管理器。为什么这么说？因为它就像一个<strong>聚宝盆</strong>，能够将众多神级脚本聚合在一起，成为我们高效生活的强大助力。&nbsp;</p>
+<h1 id="01-Tampermonkey-简介"><a href="#01-Tampermonkey-简介" class="headerlink" title="01 Tampermonkey 简介"></a>01 Tampermonkey 简介</h1><p>Tampermonkey是拥有超过 1000 万用户的浏览器扩展之一。它适用于 Chrome、Edge、Safari、Opera Next 和 Firefox。有些人也会把Tampermonkey称作油猴（Greasemonkey）。这是因为，起初最为著名的脚本编辑器并非运行在Chrome浏览器上的Tampermonkey，而是运行在Firefox浏览器上的油猴（Greasemonkey），其强大功能给用户留下了良好口碑。后来，诸多类似的脚本编辑器相继出现，大名鼎鼎的Tampermonkey在Chrome浏览器上实现了与Greasemonkey几乎相同的功能，所以也被用户称为”油猴“。  </p>
+<p>Tampermonkey允许用户自定义并增强特定网页的功能，使用它，用户可以轻松在任何网站上创建、管理和运行用户脚本。例如，可以在网页上添加一个新的按钮以便快速分享链接至社交媒体，或者自动填写带有个人信息的表格。此外，Tampermonkey还可以让用户轻松找到并安装其他用户创建的实用脚本。这意味着即便是完全不懂编程的普通人，也能轻松站在巨人的肩膀上体验编码之神奇，而无需花费数小时编写自己的代码。</p>
+<h1 id="02-安装与使用指南"><a href="#02-安装与使用指南" class="headerlink" title="02 安装与使用指南"></a>02 安装与使用指南</h1><h2 id="2-1-装配聚宝盆—Tampermonkey"><a href="#2-1-装配聚宝盆—Tampermonkey" class="headerlink" title="2-1 装配聚宝盆—Tampermonkey"></a>2-1 装配聚宝盆—Tampermonkey</h2><p>如果你还不知道如何添加浏览器插件，请先查看文章指南：<a target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=Mzg2ODg0NDE1OQ==&amp;mid=2247484021&amp;idx=1&amp;sn=7cecf3992f5bce47765ae91092ff8556&amp;chksm=cea75565f9d0dc7321f56f4cdcda7087234feee4776d453e6d98debc26ae00e99499e0395e8b&amp;scene=21#wechat_redirect">【知识分享】原来浏览器还能这样用！</a>  </p>
+<p>  <img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/0.gif"></p>
+<h2 id="2-2-放入金银珠宝—添加油猴脚本"><a href="#2-2-放入金银珠宝—添加油猴脚本" class="headerlink" title="2-2 放入金银珠宝—添加油猴脚本"></a>2-2 放入金银珠宝—添加油猴脚本</h2><p>由于脚本添加方法相似，所以在这里仅以Edge浏览器为例，进行视频演示：  </p>
+<p>根据操作进入相应页面后，可以看到，油猴脚本的官方获取途径主要有以下4种，点击下图框示的链接即可直达下载。为了便于重复使用，建议读者朋友们将其纳入自己的浏览器收藏栏，即点即用。  </p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-1.png"></p>
+<h2 id="2-3-见证闪耀时刻—前往相应网页"><a href="#2-3-见证闪耀时刻—前往相应网页" class="headerlink" title="2-3 见证闪耀时刻—前往相应网页"></a>2-3 见证闪耀时刻—前往相应网页</h2><p>一切按照传统的观影习惯，进入对应平台下的视频播放页面，此时在浏览器页面的左侧会出现VIP图标，将箭头放置在图标上即可显示解析源，接下来需要做的，就是点进自己想要看的视频，单击有效的解析源，视频便会自动播放了。下面以优酷视频为例，做个演示，其余平台操作都一样：</p>
+<h1 id="03-实用脚本推荐"><a href="#03-实用脚本推荐" class="headerlink" title="03 实用脚本推荐"></a>03 实用脚本推荐</h1><h2 id="3-1-百度系列"><a href="#3-1-百度系列" class="headerlink" title="3-1 百度系列"></a>3-1 百度系列</h2><p>百度，作为全球最大的中文搜索引擎，坐拥全球最丰富的中文用户资源，却干着让广大网友最深恶痛绝的事情（有图有真相）：过度插入广告、严重污染信息、捆绑消费用户……概括起来就俩字：流氓！</p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-2.png"></p>
+<p>好了，不骂了，来看看解决方案，先安装如下脚本：</p>
+<p>AC-百度去广告：</p>
+<p><a target="_blank" rel="noopener" href="https://sourl.cn/wNAGAY">https://sourl.cn/wNAGAY</a></p>
+<p>AC-百度重定向：</p>
+<p><a target="_blank" rel="noopener" href="https://sourl.cn/VPWp8n">https://sourl.cn/VPWp8n</a></p>
+<p>接下来，前往百度网页，稍加设置，点击保存：</p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-3.png"></p>
+<p>最后看效果：</p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-4.png"></p>
+<p>为了使搜索结果更加显眼，还可添加关键词高亮脚本：<a target="_blank" rel="noopener" href="https://d.naccl.top/2zsB2R">https://d.naccl.top/2zsB2R</a></p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-5.png"></p>
+<h2 id="3-2-知乎系列"><a href="#3-2-知乎系列" class="headerlink" title="3-2 知乎系列"></a>3-2 知乎系列</h2><p>知乎作为国内著名的问答社区，也是我们遇到问题时常去取经的地方。但是一般点进去就会出现如下画风，说实话还是有点烦人的。我们只是进去搜索一下，浏览信息，居然还必须登录，不登录还不给进？？？</p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-6.png"></p>
+<p>办法总比困难多，添加如下脚本：   </p>
+<p>知乎免登录：<a target="_blank" rel="noopener" href="https://sourl.cn/rkKyRH">https://sourl.cn/rkKyRH</a></p>
+<p>知乎增强：<a target="_blank" rel="noopener" href="https://sourl.cn/hCWbqV">https://sourl.cn/hCWbqV</a></p>
+<p>知乎美化：<a target="_blank" rel="noopener" href="https://d.naccl.top/dTYaG">https://d.naccl.top/dTYaG</a></p>
+<p>然后刷新、进入、搜索、设置、美化，完毕！  </p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-7.png"></p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-8.png"></p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-9.png"></p>
+<h2 id="3-3-豆瓣系列"><a href="#3-3-豆瓣系列" class="headerlink" title="3-3 豆瓣系列"></a>3-3 豆瓣系列</h2><p>豆瓣网也是一个资源宝库，读书、电影、音乐都有，绝对不能放过，请添加脚本“ 豆瓣资源下载大师 ”：<a target="_blank" rel="noopener" href="https://sourl.cn/LB9nv9">https://sourl.cn/LB9nv9</a> ， 然后进入豆瓣网，脚本会在浏览器右侧给出可能的观看或下载链接，单击即可直达，快去试试！  </p>
+<p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-10.png"></p>
+<h2 id="3-4-网盘系列"><a href="#3-4-网盘系列" class="headerlink" title="3-4 网盘系列"></a>3-4 网盘系列</h2><p>这一部分三言两语讲不完，就留个悬念，下一次再做分享，可以先收入你的”聚宝盆”。放心，这些脚本是实用的，运行它们，能够让你方便快捷地使用网盘搜索、下载和分享资源。</p>
+<p>网盘有效性检查：</p>
+<p><a target="_blank" rel="noopener" href="https://d.naccl.top/460c36">https://d.naccl.top/460c36</a></p>
+<p>网盘自动填写访问码：</p>
+<p><a target="_blank" rel="noopener" href="https://d.naccl.top/ckMyz">https://d.naccl.top/ckMyz</a></p>
+<p>网盘直链下载助手：</p>
+<p><a target="_blank" rel="noopener" href="https://d.naccl.top/VLA1y">https://d.naccl.top/VLA1y</a>  </p>
 
                 
             
@@ -560,7 +536,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://seeyjys.live/2024/04/17/liu-lan-qi-cha-jian-shi-yong-zhi-nan/">http://seeyjys.live/2024/04/17/liu-lan-qi-cha-jian-shi-yong-zhi-nan/</a>
+                    <a href="http://seeyjys.live/2024/04/17/you-hou-jiao-ben-shi-yong-zhi-nan/">http://seeyjys.live/2024/04/17/you-hou-jiao-ben-shi-yong-zhi-nan/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -598,16 +574,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/">
-                                    <span class="chip bg-color">浏览器插件</span>
+                                <a href="/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/">
+                                    <span class="chip bg-color">油猴脚本</span>
                                 </a>
                             
-                                <a href="/tags/Chrome/">
-                                    <span class="chip bg-color">Chrome</span>
-                                </a>
-                            
-                                <a href="/tags/Edge/">
-                                    <span class="chip bg-color">Edge</span>
+                                <a href="/tags/tampermonkey/">
+                                    <span class="chip bg-color">tampermonkey</span>
                                 </a>
                             
                         </div>
@@ -1044,13 +1016,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/04/17/an-zhuo-duan-cha-jian-ji-jiao-ben-shi-yong-zhi-nan/">
+                <a href="/2024/04/17/liu-lan-qi-cha-jian-shi-yong-zhi-nan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="安卓端插件及脚本使用指南">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="浏览器插件使用指南">
                         
-                        <span class="card-title">安卓端插件及脚本使用指南</span>
+                        <span class="card-title">浏览器插件使用指南</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1078,16 +1050,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%AE%89%E5%8D%93/">
-                        <span class="chip bg-color">安卓</span>
-                    </a>
-                    
                     <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/">
                         <span class="chip bg-color">浏览器插件</span>
                     </a>
                     
-                    <a href="/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/">
-                        <span class="chip bg-color">油猴脚本</span>
+                    <a href="/tags/Chrome/">
+                        <span class="chip bg-color">Chrome</span>
+                    </a>
+                    
+                    <a href="/tags/Edge/">
+                        <span class="chip bg-color">Edge</span>
                     </a>
                     
                 </div>
@@ -1101,13 +1073,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/04/17/you-hou-jiao-ben-shi-yong-zhi-nan/">
+                <a href="/2024/03/28/yun-duan-chu-wu-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="油猴脚本使用指南">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="云端储物间">
                         
-                        <span class="card-title">油猴脚本使用指南</span>
+                        <span class="card-title">云端储物间</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1118,14 +1090,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-28
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/" class="post-category">
-                                    知识分享
+                            <a href="/categories/%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB%E7%AB%99/" class="post-category">
+                                    资源共享站
                                 </a>
                             
                             
@@ -1135,12 +1107,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/">
-                        <span class="chip bg-color">油猴脚本</span>
-                    </a>
-                    
-                    <a href="/tags/tampermonkey/">
-                        <span class="chip bg-color">tampermonkey</span>
+                    <a href="/tags/%E8%B5%84%E6%BA%90%E7%AB%99%E7%82%B9/">
+                        <span class="chip bg-color">资源站点</span>
                     </a>
                     
                 </div>
