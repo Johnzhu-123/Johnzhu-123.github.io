@@ -15,6 +15,8 @@
           
           <category> 聚合搜索 </category>
           
+          <category> 知识分享 </category>
+          
       </categories>
       
       
@@ -39,6 +41,8 @@
       <categories>
           
           <category> 聚合搜索 </category>
+          
+          <category> 知识分享 </category>
           
       </categories>
       
@@ -74,9 +78,9 @@
       
         <tags>
             
-            <tag> 微信 </tag>
-            
             <tag> 开放数字资源 </tag>
+            
+            <tag> 微信 </tag>
             
         </tags>
       
@@ -161,9 +165,9 @@
       
         <tags>
             
-            <tag> 开放数字资源 </tag>
-            
             <tag> 中小学 </tag>
+            
+            <tag> 开放数字资源 </tag>
             
         </tags>
       
