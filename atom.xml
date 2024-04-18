@@ -6,7 +6,7 @@
   <link href="http://seeyjys.live/atom.xml" rel="self"/>
   
   <link href="http://seeyjys.live/"/>
-  <updated>2024-04-18T14:38:21.092Z</updated>
+  <updated>2024-04-18T14:40:36.978Z</updated>
   <id>http://seeyjys.live/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>手把手教你定制聚合搜索脚本</title>
+    <title>手把手教你定制搜索脚本</title>
     <link href="http://seeyjys.live/2024/04/18/shou-ba-shou-jiao-ni-ding-zhi-sou-suo-jiao-ben/"/>
     <id>http://seeyjys.live/2024/04/18/shou-ba-shou-jiao-ni-ding-zhi-sou-suo-jiao-ben/</id>
     <published>2024-04-18T14:21:32.437Z</published>
-    <updated>2024-04-18T14:38:21.092Z</updated>
+    <updated>2024-04-18T14:40:36.978Z</updated>
     
     
       
@@ -45,11 +45,11 @@
   </entry>
   
   <entry>
-    <title>手把手教你打造聚合搜索主页</title>
+    <title>手把手教你定制搜索主页</title>
     <link href="http://seeyjys.live/2024/04/18/shou-ba-shou-jiao-ni-da-zao-sou-suo-zhu-ye/"/>
     <id>http://seeyjys.live/2024/04/18/shou-ba-shou-jiao-ni-da-zao-sou-suo-zhu-ye/</id>
     <published>2024-04-18T14:12:30.036Z</published>
-    <updated>2024-04-18T14:38:34.292Z</updated>
+    <updated>2024-04-18T14:40:25.004Z</updated>
     
     
       
@@ -98,9 +98,9 @@
     <category term="省图资源" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/%E7%9C%81%E5%9B%BE%E8%B5%84%E6%BA%90/"/>
     
     
-    <category term="开放数字资源" scheme="http://seeyjys.live/tags/%E5%BC%80%E6%94%BE%E6%95%B0%E5%AD%97%E8%B5%84%E6%BA%90/"/>
-    
     <category term="微信" scheme="http://seeyjys.live/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+    <category term="开放数字资源" scheme="http://seeyjys.live/tags/%E5%BC%80%E6%94%BE%E6%95%B0%E5%AD%97%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
@@ -188,9 +188,9 @@
     <category term="省图资源" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/%E7%9C%81%E5%9B%BE%E8%B5%84%E6%BA%90/"/>
     
     
-    <category term="中小学" scheme="http://seeyjys.live/tags/%E4%B8%AD%E5%B0%8F%E5%AD%A6/"/>
-    
     <category term="开放数字资源" scheme="http://seeyjys.live/tags/%E5%BC%80%E6%94%BE%E6%95%B0%E5%AD%97%E8%B5%84%E6%BA%90/"/>
+    
+    <category term="中小学" scheme="http://seeyjys.live/tags/%E4%B8%AD%E5%B0%8F%E5%AD%A6/"/>
     
   </entry>
   
