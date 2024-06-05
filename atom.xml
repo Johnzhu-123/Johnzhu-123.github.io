@@ -6,7 +6,7 @@
   <link href="http://seeyjys.live/atom.xml" rel="self"/>
   
   <link href="http://seeyjys.live/"/>
-  <updated>2024-06-05T12:36:25.994Z</updated>
+  <updated>2024-06-02T12:45:49.334Z</updated>
   <id>http://seeyjys.live/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Testing</title>
-    <link href="http://seeyjys.live/2024/06/05/testing/"/>
-    <id>http://seeyjys.live/2024/06/05/testing/</id>
-    <published>2024-06-05T12:36:45.241Z</published>
-    <updated>2024-06-05T12:36:25.994Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;不知大家有没有发现，信息总是先经由少部分对信息敏感的人群，再流动至普罗大众，这在客观上形成了信息传播领域“源-流”的关系。具体一点，我们平时关注的公众号、抖音号、微博号、视频号等等，就是信息源的突出代表，而作为信息接收方的个体便是信息流的组成部分。自媒体时代，人人都可能是信</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>国内AI搜索引擎精选</title>
@@ -147,9 +126,9 @@
     <category term="省图资源" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/%E7%9C%81%E5%9B%BE%E8%B5%84%E6%BA%90/"/>
     
     
-    <category term="微信" scheme="http://seeyjys.live/tags/%E5%BE%AE%E4%BF%A1/"/>
-    
     <category term="开放数字资源" scheme="http://seeyjys.live/tags/%E5%BC%80%E6%94%BE%E6%95%B0%E5%AD%97%E8%B5%84%E6%BA%90/"/>
+    
+    <category term="微信" scheme="http://seeyjys.live/tags/%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
@@ -234,9 +213,9 @@
     <category term="省图资源" scheme="http://seeyjys.live/categories/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/%E7%9C%81%E5%9B%BE%E8%B5%84%E6%BA%90/"/>
     
     
-    <category term="开放数字资源" scheme="http://seeyjys.live/tags/%E5%BC%80%E6%94%BE%E6%95%B0%E5%AD%97%E8%B5%84%E6%BA%90/"/>
-    
     <category term="中小学" scheme="http://seeyjys.live/tags/%E4%B8%AD%E5%B0%8F%E5%AD%A6/"/>
+    
+    <category term="开放数字资源" scheme="http://seeyjys.live/tags/%E5%BC%80%E6%94%BE%E6%95%B0%E5%AD%97%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
