@@ -1,4 +1,8 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
     <meta charset="utf-8">
     <meta name="keywords" content="油猴脚本使用指南, 云端知识库">
     <meta name="description" content="愿作天边那一抹蔚蓝，虽似无言，却是有心，纵然平淡，亦即真实...">
@@ -433,20 +437,20 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>如果说只能留一个浏览器插件的话，我会毫不犹豫地选择Tampermonkey，也就是油猴脚本管理器。为什么这么说？因为它就像一个<strong>聚宝盆</strong>，能够将众多神级脚本聚合在一起，成为我们高效生活的强大助力。&nbsp;</p>
+                <p>如果说只能留一个浏览器插件的话，我会毫不犹豫地选择Tampermonkey，也就是油猴脚本管理器。为什么这么说？因为它就像一个<strong>聚宝盆</strong>，能够将众多神级脚本聚合在一起，成为我们高效生活的强大助力。 </p>
 <h1 id="1-Tampermonkey-简介"><a href="#1-Tampermonkey-简介" class="headerlink" title="1 Tampermonkey 简介"></a>1 Tampermonkey 简介</h1><p>Tampermonkey是拥有超过 1000 万用户的浏览器扩展之一。它适用于 Chrome、Edge、Safari、Opera Next 和 Firefox。有些人也会把Tampermonkey称作油猴（Greasemonkey）。这是因为，起初最为著名的脚本编辑器并非运行在Chrome浏览器上的Tampermonkey，而是运行在Firefox浏览器上的油猴（Greasemonkey），其强大功能给用户留下了良好口碑。后来，诸多类似的脚本编辑器相继出现，大名鼎鼎的Tampermonkey在Chrome浏览器上实现了与Greasemonkey几乎相同的功能，所以也被用户称为”油猴“。  </p>
 <p>Tampermonkey允许用户自定义并增强特定网页的功能，使用它，用户可以轻松在任何网站上创建、管理和运行用户脚本。例如，可以在网页上添加一个新的按钮以便快速分享链接至社交媒体，或者自动填写带有个人信息的表格。此外，Tampermonkey还可以让用户轻松找到并安装其他用户创建的实用脚本。这意味着即便是完全不懂编程的普通人，也能轻松站在巨人的肩膀上体验编码之神奇，而无需花费数小时编写自己的代码。</p>
 <h1 id="2-动态演示"><a href="#2-动态演示" class="headerlink" title="2 动态演示"></a>2 动态演示</h1><div align="center">
-  <video width="720" height="540" controls="">
+  <video width="720" height="540" controls>
     <source src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/JiaoBenVideo-1.mp4" type="video/mp4">
   </video>
 </div>
 
-<h1 id="3-安装与使用指南"><a href="#3-安装与使用指南" class="headerlink" title="3 安装与使用指南"></a>3 安装与使用指南</h1><h2 id="3-1-装配聚宝盆—Tampermonkey"><a href="#3-1-装配聚宝盆—Tampermonkey" class="headerlink" title="3.1 装配聚宝盆—Tampermonkey"></a>3.1 装配聚宝盆—Tampermonkey</h2><p>如果你还不知道如何添加浏览器插件，请先查看文章指南：<a target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=Mzg2ODg0NDE1OQ==&amp;mid=2247484021&amp;idx=1&amp;sn=7cecf3992f5bce47765ae91092ff8556&amp;chksm=cea75565f9d0dc7321f56f4cdcda7087234feee4776d453e6d98debc26ae00e99499e0395e8b&amp;scene=21#wechat_redirect">【知识分享】原来浏览器还能这样用！</a>  </p>
+<h1 id="3-安装与使用指南"><a href="#3-安装与使用指南" class="headerlink" title="3 安装与使用指南"></a>3 安装与使用指南</h1><h2 id="3-1-装配聚宝盆—Tampermonkey"><a href="#3-1-装配聚宝盆—Tampermonkey" class="headerlink" title="3.1 装配聚宝盆—Tampermonkey"></a>3.1 装配聚宝盆—Tampermonkey</h2><p>如果你还不知道如何添加浏览器插件，请先查看文章指南：<a target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=Mzg2ODg0NDE1OQ==&mid=2247484021&idx=1&sn=7cecf3992f5bce47765ae91092ff8556&chksm=cea75565f9d0dc7321f56f4cdcda7087234feee4776d453e6d98debc26ae00e99499e0395e8b&scene=21#wechat_redirect">【知识分享】原来浏览器还能这样用！</a>  </p>
 <p>  <img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/0.gif"></p>
 <h2 id="3-2-放入金银珠宝—添加油猴脚本"><a href="#3-2-放入金银珠宝—添加油猴脚本" class="headerlink" title="3.2 放入金银珠宝—添加油猴脚本"></a>3.2 放入金银珠宝—添加油猴脚本</h2><p>由于脚本添加方法相似，所以在这里仅以Edge浏览器为例，进行视频演示： </p>
 <div align="center">
-  <video width="720" height="540" controls="">
+  <video width="720" height="540" controls>
     <source src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/JiaoBenVideo-2.mp4" type="video/mp4">
   </video>
 </div>
@@ -455,7 +459,7 @@
 <p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/youhou-1.png"></p>
 <h2 id="3-3-见证闪耀时刻—前往相应网页"><a href="#3-3-见证闪耀时刻—前往相应网页" class="headerlink" title="3.3 见证闪耀时刻—前往相应网页"></a>3.3 见证闪耀时刻—前往相应网页</h2><p>一切按照传统的观影习惯，进入对应平台下的视频播放页面，此时在浏览器页面的左侧会出现VIP图标，将箭头放置在图标上即可显示解析源，接下来需要做的，就是点进自己想要看的视频，单击有效的解析源，视频便会自动播放了。下面以优酷视频为例，做个演示，其余平台操作都一样：</p>
 <div style="text-align:center;">
-  <video width="720" height="540" controls="">
+  <video width="720" height="540" controls>
     <source src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/JiaoBenVideo-3.mp4" type="video/mp4">
   </video>
 </div>
@@ -495,37 +499,8 @@
 <p><img src="https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/image-20240417211902363.png"></p>
 
                 
-            
-            <link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-            <script data-pjax="" src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-            <script data-pjax="">
-            var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-            var allowMobile = true;
-            if (!isMobile || (isMobile && allowMobile)) {
-                try {
-                var plugin = new ReadmorePlugin();
-                plugin.init({
-                    "type": "hexo",
-                    "id": "articleContent",
-                    "name": "卧看漫天云卷云舒",
-                    "blogId": "65712-6191583831365-947",
-                    "qrcode": "https://testingcf.jsdelivr.net/gh/Johnzhu-123/Picture/img/picture/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.png",
-                    "keyword": "验证码",
-                    "random": "1",
-                    "height": "auto",
-                    "expires": "365",
-                    "lockToc": "yes",
-                    "interval": "60",
-                    "baseUrl": "",
-                    "tocSelector": "#toc-content"
-                });
-                } catch(e) {
-                    console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-                }
-            }
-            </script>
-        </div>
-            <hr>
+            </div>
+            <hr/>
 
             
 
@@ -568,7 +543,7 @@
         
     </div>
 
-    <script async="" defer="">
+    <script async defer>
       document.addEventListener("copy", function (e) {
         let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
         M.toast({html: toastHTML})
@@ -1262,7 +1237,7 @@
     
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
-            Copyright&nbsp;©
+            Copyright&nbsp;&copy;
             
                 <span id="year">2024</span>
             
@@ -1327,7 +1302,8 @@
     <div class="modal-content">
         <div class="search-header">
             <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
         </div>
         <div id="searchResult"></div>
     </div>
@@ -1478,7 +1454,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
+</body>
 
-
-
-</body></html>
+</html>
